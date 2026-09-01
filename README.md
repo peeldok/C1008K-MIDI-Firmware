@@ -17,6 +17,9 @@ This firmware turns the C100 into an **RGB MIDI controller**.
 * Adjustable LED brightness
 * Boot animation
 
+## Setup UI
+<img width="714" height="714" alt="layout_jump_to_boot_rounded_transparent (1)" src="https://github.com/user-attachments/assets/2e9b5adf-c9c1-4b9b-b6f2-0e75e6e1fcfd" />
+
 ## Hardware
 
 * **Device:** Keychron C100
