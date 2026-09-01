@@ -18,8 +18,7 @@ This firmware turns the C100 into an **RGB MIDI controller**.
 * Boot animation
 
 ## Setup UI
-
-<img width="1254" height="1254" alt="ChatGPT Image 2026년 9월 1일 오후 07_36_13" src="https://github.com/user-attachments/assets/e81f5070-da25-4c97-be5a-69b4fdd8209e" />
+<img width="714" height="714" alt="layout_jump_to_boot_rounded_transparent (1)" src="https://github.com/user-attachments/assets/2e9b5adf-c9c1-4b9b-b6f2-0e75e6e1fcfd" />
 
 ## Hardware
 
@@ -41,6 +40,7 @@ This firmware uses:
 * FreeRTOS
 * TinyUSB
 * Artery AT32F402/405 Firmware Library
+* Arm CMSIS
 * ARM GNU Toolchain
 
 ## Building
@@ -105,12 +105,12 @@ dfu-util -d 2e3c:df11 -a 0 -s 0x08000000:leave -D c100.bin
 
 ## Restoring the Stock Firmware
 
-The original Keychron firmware can be restored using the web flasher or `dfu-util`.
+Download the official Keychron C100 firmware, then restore it using the web flasher or `dfu-util`.
 
 ### dfu-util
 
 ```bash
-dfu-util -d 2e3c:df11 -a 0 -s 0x08000000:leave -D original.bin
+dfu-util -d 2e3c:df11 -a 0 -s 0x08000000:leave -D keychron-c100.bin
 ```
 
 The AT32 ROM bootloader is stored separately from the application flash and is not overwritten when installing C100 MIDI.
@@ -118,12 +118,18 @@ The AT32 ROM bootloader is stored separately from the application flash and is n
 ## Credits
 
 * [peeldok](https://github.com/peeldok)
+* [Novation / Focusrite Launchpad Pro Open Source Firmware](https://github.com/dvhdr/launchpad-pro)
+* [Launchpad Pro Performance CFW](https://github.com/mat1jaczyyy/lpp-performance-cfw)
+* [Apollo Studio](https://github.com/mat1jaczyyy/apollo-studio)
 * [TinyUSB](https://github.com/hathach/tinyusb)
 * [FreeRTOS](https://github.com/FreeRTOS/FreeRTOS-Kernel)
-* [Apollo Studio](https://github.com/mat1jaczyyy/apollo-studio)
+* [Artery AT32F402/405 Firmware Library](https://github.com/ArteryTek/AT32F402_405_Firmware_Library)
+* [Arm CMSIS](https://github.com/ARM-software/CMSIS_5)
 
 ## License
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+C100 MIDI is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
 
-See the `LICENSE` file for details.
+Third-party components and derived material remain subject to their respective copyright notices and license terms.
+
+See `LICENSE` and `THIRD_PARTY_LICENSES.md` for details.
