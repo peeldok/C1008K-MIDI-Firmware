@@ -42,8 +42,6 @@ This firmware uses:
 * Artery AT32F402/405 Firmware Library
 * ARM GNU Toolchain
 
-The firmware size is approximately **40 KB**.
-
 ## Building
 
 Required libraries:
