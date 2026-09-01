@@ -113,23 +113,6 @@ dfu-util -d 2e3c:df11 -a 0 -s 0x08000000:leave -D original.bin
 
 The AT32 ROM bootloader is stored separately from the application flash and is not overwritten when installing C100 MIDI.
 
-## Project Structure
-
-```text
-firmware/
-├─ Core/
-├─ Performance/
-├─ Setup/
-├─ BootAnimation/
-├─ Palette/
-├─ Sysex/
-├─ Drivers/
-└─ USB/
-
-Platform/
-└─ AT32F405/
-```
-
 ## Credits
 
 * [peeldok](https://github.com/peeldok)
