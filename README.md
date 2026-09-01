@@ -16,6 +16,7 @@ This firmware turns the C100 into an **RGB MIDI controller**.
 * 3 built-in palettes + 3 custom palettes
 * Adjustable LED brightness
 * Boot animation
+* Custom Control Map Coming Soon
 
 ## Setup UI
 <img width="714" height="714" alt="layout_jump_to_boot_rounded_transparent (1)" src="https://github.com/user-attachments/assets/2e9b5adf-c9c1-4b9b-b6f2-0e75e6e1fcfd" />
