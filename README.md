@@ -1,11 +1,11 @@
+[![MCU](https://img.shields.io/badge/MCU-AT32F405RCT7-orange?style=flat-square)](#)
+[![License](https://img.shields.io/badge/license-AGPLv3-blue?style=flat-square)](LICENSE)
+
 # 🎹 C100 MIDI
 
 **Custom MIDI firmware for the Keychron C100**
 
 This firmware turns the C100 into an **RGB MIDI controller**.
-
-[![MCU](https://img.shields.io/badge/MCU-AT32F405RCT7-orange?style=flat-square)](#)
-[![License](https://img.shields.io/badge/license-AGPLv3-blue?style=flat-square)](LICENSE)
 
 ## Features
 
