@@ -94,7 +94,7 @@ If C100 MIDI is already running, DFU mode can also be entered from the setup men
 
 You can use the web flasher below:
 
-https://fw.peeldok.dev
+https://c100.peeldok.dev
 
 On Windows, the DFU device may need to be assigned the **WinUSB driver** using Zadig.
 
